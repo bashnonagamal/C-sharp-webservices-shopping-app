@@ -1,0 +1,8 @@
+# ignore all
+**
+
+
+# Except
+!.gitignore
+!IShoppingWebService.cs
+!ShoppingWebService.svc.cs
