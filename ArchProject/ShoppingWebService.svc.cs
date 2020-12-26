@@ -12,9 +12,24 @@ namespace ArchProject
     // NOTE: In order to launch WCF Test Client for testing this service, please select ShoppingWebService.svc or ShoppingWebService.svc.cs at the Solution Explorer and start debugging.
     public class ShoppingWebService : IShoppingWebService
     {
-        public void AddItem()
+        public int AddItem(string productName, int stockQuentity, string description, float price, int categoryID)
         {
-
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-Q2BTOU1;Initial Catalog=onlineStoreDatabase;Integrated Security=True");//Change Data Source
+            conn.Open();
+            SqlCommand cmd = new SqlCommand("insert into Product (Product_Name,Stock_Quantity,Description,price,Category_ID) values (@A,@B,@C,@D,@E)", conn);
+            SqlParameter pn = new SqlParameter("@A", productName);
+            SqlParameter SQ = new SqlParameter("@B", stockQuentity);
+            SqlParameter Desc = new SqlParameter("@C", description);
+            SqlParameter Price = new SqlParameter("@D", price);
+            SqlParameter catId = new SqlParameter("@E", categoryID);
+            cmd.Parameters.Add(pn);
+            cmd.Parameters.Add(SQ);
+            cmd.Parameters.Add(Desc);
+            cmd.Parameters.Add(Price);
+            cmd.Parameters.Add(catId);
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            return 1;
         }
         public void getAllItems()
         {
@@ -31,7 +46,7 @@ namespace ArchProject
         public int Register(string userName, string userEmail, string userPassword, string userPhoneNumber, string userAddress)
         {
             //Check whether user info already exists
-            SqlConnection conn = new SqlConnection("Data Source=ANDREW;Initial Catalog=onlineStoreDatabase;Integrated Security=True");//Change Data Source
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-Q2BTOU1;Initial Catalog=onlineStoreDatabase;Integrated Security=True");//Change Data Source
             conn.Open();
             SqlCommand cmd = new SqlCommand("select User_name from Users where User_name=@A", conn);
             SqlParameter userP = new SqlParameter("@A", userName);

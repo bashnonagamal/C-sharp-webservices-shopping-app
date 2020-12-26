@@ -12,7 +12,7 @@ namespace ArchProject
     public interface IShoppingWebService
     {
         [OperationContract]
-        void AddItem();
+        int AddItem(string productName, int stockQuentity, string description, float price, int categoryID);
 
         [OperationContract]
         void getAllItems();

@@ -5,3 +5,10 @@ C:\Users\andre\Documents\GitHub\C-sharp-webservices-shopping-app\ArchProject\bin
 C:\Users\andre\Documents\GitHub\C-sharp-webservices-shopping-app\ArchProject\bin\ArchProject.pdb
 C:\Users\andre\Documents\GitHub\C-sharp-webservices-shopping-app\ArchProject\obj\Debug\ArchProject.dll
 C:\Users\andre\Documents\GitHub\C-sharp-webservices-shopping-app\ArchProject\obj\Debug\ArchProject.pdb
+C:\Users\pc13\source\repos\ArchProject\ArchProject\bin\ArchProject.dll.config
+C:\Users\pc13\source\repos\ArchProject\ArchProject\bin\ArchProject.dll
+C:\Users\pc13\source\repos\ArchProject\ArchProject\bin\ArchProject.pdb
+C:\Users\pc13\source\repos\ArchProject\ArchProject\obj\Debug\ArchProject.csprojAssemblyReference.cache
+C:\Users\pc13\source\repos\ArchProject\ArchProject\obj\Debug\ArchProject.csproj.CoreCompileInputs.cache
+C:\Users\pc13\source\repos\ArchProject\ArchProject\obj\Debug\ArchProject.dll
+C:\Users\pc13\source\repos\ArchProject\ArchProject\obj\Debug\ArchProject.pdb
