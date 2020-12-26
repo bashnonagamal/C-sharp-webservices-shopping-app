@@ -1,9 +1,10 @@
 # ignore all
-/*
-bin/
-Properties/
-obj/
-.vs/
+*
+*/
+#bin/
+#Properties/
+#obj/
+#.vs/
 
 
 # Except
