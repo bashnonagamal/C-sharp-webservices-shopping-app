@@ -96,11 +96,33 @@ namespace ArchProject
         }
         public void login()
         {
+            //List<string> usr = new List<string>();
+            //SqlConnection con = new SqlConnection("Data Source=DESKTOP-Q2BTOU1;Initial Catalog=onlineStoreDatabase;Integrated Security=True");
+            //con.Open();
+            //SqlCommand cmd = new SqlCommand("select * user where User_name=@UserName and User_password=@Password", con);
+            //cmd.Parameters.AddWithValue("@UserName", userName);
+            //cmd.Parameters.AddWithValue("@Password", pass);
 
+            //SqlDataReader dr = cmd.ExecuteReader();
+
+            //if (dr.Read() == true)
+            //{
+
+            //    usr.Add(dr[0].ToString());
+            //    usr.Add(dr[2].ToString());
+            //}
+            //con.Close();
         }
-        public int addCategory()
+        public int addCategory(string categoryName)
         {
-            return 0;
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-Q2BTOU1;Initial Catalog=onlineStoreDatabase;Integrated Security=True");//Change Data Source
+            conn.Open();
+            SqlCommand cmd = new SqlCommand("insert into Category (Category_name) values (@A)", conn);
+            SqlParameter pn = new SqlParameter("@A", categoryName);
+            cmd.Parameters.Add(pn);
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            return 1;
         }
         public List<List<string>> getCategories()
         {

@@ -33,7 +33,7 @@ namespace ArchProject
         void getItemById();
 
         [OperationContract]
-        int addCategory();
+        int addCategory(string categoryName);
 
         [OperationContract]
         int order();
