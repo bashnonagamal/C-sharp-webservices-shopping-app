@@ -39,8 +39,23 @@ namespace ArchProject
         {
 
         }
-        public void deleteItem()
+        public int deleteItem(int ProductID)
         {
+            SqlConnection con = new SqlConnection("Data Source=DESKTOP-Q2BTOU1;Initial Catalog=onlineStoreDatabase;Integrated Security=True");
+            con.Open();
+            SqlCommand cmd = new SqlCommand("delete from Product where product_id=@ProductID", con);
+            cmd.Parameters.AddWithValue("@ProductID", ProductID);
+            int result = cmd.ExecuteNonQuery();
+            if (result == 1)
+            {
+                result = 1;
+            }
+            else
+            {
+                result = 0;
+            }
+            con.Close();
+            return result;
 
         }
         public int Register(string userName, string userEmail, string userPassword, string userPhoneNumber, string userAddress)
@@ -83,9 +98,37 @@ namespace ArchProject
         {
 
         }
+        public int addCategory()
+        {
+            return 0;
+        }
+        public List<List<string>> getCategories()
+        {
+            
+            List<List<string>> Categories = new List<List<string>>();
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-Q2BTOU1;Initial Catalog=onlineStoreDatabase;Integrated Security=True");//Change Data Source
+            conn.Open();
+            SqlCommand cmd = new SqlCommand("select * from Category", conn);
+            SqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                List<string> Category = new List<string>();
+                Category.Add(Convert.ToString(reader["Category_ID"]));
+                Category.Add(Convert.ToString(reader["Category_name"]));
+                Categories.Add(Category);
+            }
+            return Categories;
+   
+        }
         public void getItemById()
         {
 
         }
+
+        public int order()
+        {
+            return 0;
+        }
+
     }
 }

@@ -21,7 +21,7 @@ namespace ArchProject
         void editItem();
 
         [OperationContract]
-        void deleteItem();
+        int deleteItem(int productID);
 
         [OperationContract]
         int Register(string userName, string userEmail, string userPassword, string userPhoneNumber, string userAddress);
@@ -31,6 +31,17 @@ namespace ArchProject
 
         [OperationContract]
         void getItemById();
+
+        [OperationContract]
+        int addCategory();
+
+        [OperationContract]
+        int order();
+
+        [OperationContract]
+        List<List<string>> getCategories();
+
+
 
     }
 }
