@@ -1,6 +1,9 @@
 # ignore all
-*
-ArchProject/
+/*
+bin/
+Properties/
+obj/
+.vs/
 
 
 # Except
