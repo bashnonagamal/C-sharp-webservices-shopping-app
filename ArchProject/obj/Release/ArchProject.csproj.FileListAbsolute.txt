@@ -1,0 +1,6 @@
+C:\Users\pc13\source\repos\ArchProject\ArchProject\bin\ArchProject.dll.config
+C:\Users\pc13\source\repos\ArchProject\ArchProject\bin\ArchProject.dll
+C:\Users\pc13\source\repos\ArchProject\ArchProject\bin\ArchProject.pdb
+C:\Users\pc13\source\repos\ArchProject\ArchProject\obj\Release\ArchProject.csproj.CoreCompileInputs.cache
+C:\Users\pc13\source\repos\ArchProject\ArchProject\obj\Release\ArchProject.dll
+C:\Users\pc13\source\repos\ArchProject\ArchProject\obj\Release\ArchProject.pdb
