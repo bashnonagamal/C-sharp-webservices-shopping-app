@@ -16,7 +16,7 @@ namespace ArchProject
 
         [OperationContract]
         void getAllItems();
-s
+
         [OperationContract]
         void editItem();
 
@@ -24,7 +24,7 @@ s
         void deleteItem();
 
         [OperationContract]
-        void Register();
+        int Register(string userName, string userEmail, string userPassword, string userPhoneNumber, string userAddress);
 
         [OperationContract]
         void login();
