@@ -147,8 +147,35 @@ namespace ArchProject
 
         }
 
-        public int order()
+        public int order(int userID, List<List<int>> cart, double totalPrice)
         {
+            //Create cart for user
+            SqlConnection conn = new SqlConnection("Data Source=ANDREW;Initial Catalog=onlineStoreDatabase;Integrated Security=True"); //Change Data Source
+            conn.Open();
+            int cartID=0;
+            SqlCommand comm = new SqlCommand("insert into Cart (User_id, Total_price) output INSERTED.Cart_id values (@A,@B)", conn);
+            SqlParameter userP = new SqlParameter("@A", userID);
+            SqlParameter priceP = new SqlParameter("@B", totalPrice);
+
+            comm.Parameters.Add(userP);
+            comm.Parameters.Add(priceP);
+
+            cartID=(int)comm.ExecuteScalar();
+
+            //inserting products into product cart
+            for(int i = 0; i < cart.Count; i++)
+            {
+                comm = new SqlCommand("insert into Product_Cart (Cart_ID, Product_ID, Quantity) values (@A,@B,@C)",conn);
+                SqlParameter cartP = new SqlParameter("@A", cartID);
+                SqlParameter productP = new SqlParameter("@B", cart[i][0]);
+                SqlParameter quantityP = new SqlParameter("@c", cart[i][1]);
+                comm.Parameters.Add(cartP);
+                comm.Parameters.Add(productP);
+                comm.Parameters.Add(quantityP);
+                comm.ExecuteNonQuery();
+            }
+            conn.Close();
+            
             return 0;
         }
 
