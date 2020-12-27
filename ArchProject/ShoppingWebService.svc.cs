@@ -31,9 +31,37 @@ namespace ArchProject
             conn.Close();
             return 1;
         }
-        public void getAllItems()
+        public List<List<string>> getAllItems()
         {
+            List<List<string>> Products = new List<List<string>>();
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-Q2BTOU1;Initial Catalog=onlineStoreDatabase;Integrated Security=True;MultipleActiveResultSets=true");//Change Data Source
+            conn.Open();
+            SqlCommand cmd = new SqlCommand("select * from Product", conn);
+            SqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                List<string> Product = new List<string>();
+                Product.Add(Convert.ToString(reader["Product_ID"]));
+                Product.Add(Convert.ToString(reader["Product_Name"]));
+                Product.Add(Convert.ToString(reader["Stock_Quantity"]));
+                Product.Add(Convert.ToString(reader["Description"]));
+                Product.Add(Convert.ToString(reader["price"]));
+                string cat_id = Convert.ToString(reader["Category_ID"]);
+                Product.Add(cat_id);
+                
 
+                // Get Category Name
+                SqlCommand cmd2 = new SqlCommand("select * from Category where Category_ID=@cat", conn);
+                cmd2.Parameters.AddWithValue("@cat", cat_id);
+                SqlDataReader reader2 = cmd2.ExecuteReader();
+                while(reader2.Read())
+                {
+                    Product.Add(Convert.ToString(reader2["Category_name"]));
+                }
+
+                Products.Add(Product);
+            }
+            return Products;
         }
         public void editItem()
         {

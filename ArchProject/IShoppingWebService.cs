@@ -15,7 +15,7 @@ namespace ArchProject
         int AddItem(string productName, int stockQuentity, string description, float price, int categoryID);
 
         [OperationContract]
-        void getAllItems();
+        List<List<string>> getAllItems();
 
         [OperationContract]
         void editItem();
