@@ -30,7 +30,7 @@ namespace ArchProject
         int login(string userName, string pass);
 
         [OperationContract]
-        void getItemById();
+        List<string> getItemById(int itemId);
 
         [OperationContract]
         int addCategory(string categoryName);
