@@ -27,7 +27,7 @@ namespace ArchProject
         int Register(string userName, string userEmail, string userPassword, string userPhoneNumber, string userAddress);
 
         [OperationContract]
-        void login();
+        int login(string userName, string pass);
 
         [OperationContract]
         void getItemById();

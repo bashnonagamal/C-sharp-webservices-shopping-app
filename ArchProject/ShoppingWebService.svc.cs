@@ -94,24 +94,27 @@ namespace ArchProject
                 return 1;
             }
         }
-        public void login()
+        public int login(string userName, string password)
         {
-            //List<string> usr = new List<string>();
-            //SqlConnection con = new SqlConnection("Data Source=DESKTOP-Q2BTOU1;Initial Catalog=onlineStoreDatabase;Integrated Security=True");
-            //con.Open();
-            //SqlCommand cmd = new SqlCommand("select * user where User_name=@UserName and User_password=@Password", con);
-            //cmd.Parameters.AddWithValue("@UserName", userName);
-            //cmd.Parameters.AddWithValue("@Password", pass);
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-Q2BTOU1;Initial Catalog=onlineStoreDatabase;Integrated Security=True");
+            conn.Open();
+            SqlCommand cmd = new SqlCommand("select * from Users where User_name=@A and User_password=@B", conn);
+            SqlParameter user = new SqlParameter("@A", userName);
+            SqlParameter pass = new SqlParameter("@B", password);
+            cmd.Parameters.Add(user);
+            cmd.Parameters.Add(pass);
 
-            //SqlDataReader dr = cmd.ExecuteReader();
+            SqlDataReader reader = cmd.ExecuteReader();
 
-            //if (dr.Read() == true)
-            //{
+            if (reader.Read())
+            {
+                int userID = Convert.ToInt32(reader["User_ID"]);
+                conn.Close();
+                return userID;
+            }
+            conn.Close();
+            return 0;
 
-            //    usr.Add(dr[0].ToString());
-            //    usr.Add(dr[2].ToString());
-            //}
-            //con.Close();
         }
         public int addCategory(string categoryName)
         {
@@ -150,7 +153,7 @@ namespace ArchProject
         public int order(int userID, List<List<int>> cart, double totalPrice)
         {
             //Create cart for user
-            SqlConnection conn = new SqlConnection("Data Source=ANDREW;Initial Catalog=onlineStoreDatabase;Integrated Security=True"); //Change Data Source
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-Q2BTOU1;Initial Catalog=onlineStoreDatabase;Integrated Security=True"); //Change Data Source
             conn.Open();
             int cartID=0;
             SqlCommand comm = new SqlCommand("insert into Cart (User_id, Total_price) output INSERTED.Cart_id values (@A,@B)", conn);
