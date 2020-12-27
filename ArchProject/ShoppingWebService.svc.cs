@@ -63,9 +63,26 @@ namespace ArchProject
             }
             return Products;
         }
-        public void editItem()
+        public int editItem(int productID, string productName, int stockQuentity, string description, float price, int categoryID)
         {
-
+            SqlConnection conn = new SqlConnection("Data Source=DESKTOP-Q2BTOU1;Initial Catalog=onlineStoreDatabase;Integrated Security=True");//Change Data Source
+            conn.Open();
+            SqlCommand cmd = new SqlCommand("update Product set Product_Name=@A ,Stock_Quantity=@B ,Description=@C ,price=@D ,Category_ID=@E where Product_ID = @F", conn);
+            SqlParameter pn = new SqlParameter("@A", productName);
+            SqlParameter SQ = new SqlParameter("@B", stockQuentity);
+            SqlParameter Desc = new SqlParameter("@C", description);
+            SqlParameter Price = new SqlParameter("@D", price);
+            SqlParameter catId = new SqlParameter("@E", categoryID);
+            SqlParameter prod_ID = new SqlParameter("@F", productID);
+            cmd.Parameters.Add(pn);
+            cmd.Parameters.Add(SQ);
+            cmd.Parameters.Add(Desc);
+            cmd.Parameters.Add(Price);
+            cmd.Parameters.Add(catId);
+            cmd.Parameters.Add(prod_ID);
+            cmd.ExecuteNonQuery();
+            conn.Close();
+            return 1;
         }
         public int deleteItem(int ProductID)
         {

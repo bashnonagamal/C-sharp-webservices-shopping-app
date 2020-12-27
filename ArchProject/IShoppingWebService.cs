@@ -18,7 +18,7 @@ namespace ArchProject
         List<List<string>> getAllItems();
 
         [OperationContract]
-        void editItem();
+        int editItem(int userID, string productName, int stockQuentity, string description, float price, int categoryID);
 
         [OperationContract]
         int deleteItem(int productID);
