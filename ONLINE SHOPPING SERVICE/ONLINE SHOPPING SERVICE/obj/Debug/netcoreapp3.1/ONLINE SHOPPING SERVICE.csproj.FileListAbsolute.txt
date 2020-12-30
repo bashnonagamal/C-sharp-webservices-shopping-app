@@ -1,0 +1,54 @@
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.exe
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.deps.json
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.runtimeconfig.json
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.runtimeconfig.dev.json
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.dll
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.pdb
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.csprojAssemblyReference.cache
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE_SHOPPING_SERVICE.AdminMain.resources
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE_SHOPPING_SERVICE.Cart.resources
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE_SHOPPING_SERVICE.Login.resources
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE_SHOPPING_SERVICE.Signup.resources
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE_SHOPPING_SERVICE.UserMain.resources
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.csproj.GenerateResource.cache
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.AssemblyInfoInputs.cache
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.AssemblyInfo.cs
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.csproj.CoreCompileInputs.cache
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.dll
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.pdb
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.genruntimeconfig.cache
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE_SHOPPING_SERVICE.AddItem.resources
+D:\FCIS Stuff\Materials\Year 4\Y4 S1\FCIS\Software Design and Architecture [SWE 491] (4CH)\Project\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE_SHOPPING_SERVICE.ViewItems.resources
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.exe
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.deps.json
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.runtimeconfig.json
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.runtimeconfig.dev.json
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.dll
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.pdb
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.csprojAssemblyReference.cache
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE_SHOPPING_SERVICE.AddCategory.resources
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE_SHOPPING_SERVICE.AddItem.resources
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE_SHOPPING_SERVICE.AdminMain.resources
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE_SHOPPING_SERVICE.Cart.resources
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE_SHOPPING_SERVICE.Login.resources
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE_SHOPPING_SERVICE.Signup.resources
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE_SHOPPING_SERVICE.UserMain.resources
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.csproj.GenerateResource.cache
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.AssemblyInfoInputs.cache
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.AssemblyInfo.cs
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.csproj.CoreCompileInputs.cache
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.dll
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.pdb
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.genruntimeconfig.cache
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\System.Net.Http.WinHttpHandler.dll
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\System.ServiceModel.Duplex.dll
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\System.ServiceModel.Http.dll
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\System.ServiceModel.NetTcp.dll
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\System.ServiceModel.Primitives.dll
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\System.ServiceModel.dll
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\System.ServiceModel.Security.dll
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Net.Http.WinHttpHandler.dll
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\bin\Debug\netcoreapp3.1\runtimes\win7\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE SHOPPING SERVICE.csproj.CopyComplete
+C:\Users\pc13\source\repos\ONLINE SHOPPING SERVICE\ONLINE SHOPPING SERVICE\obj\Debug\netcoreapp3.1\ONLINE_SHOPPING_SERVICE.EditItem.resources

@@ -36,7 +36,7 @@ namespace ArchProject
         int addCategory(string categoryName);
 
         [OperationContract]
-        int order(int userID, List<List<int>> cart, double totalPrice );
+        int order(int userID, List<List<int>> cart, double totalPrice, string payment_method);
 
         [OperationContract]
         List<List<string>> getCategories();

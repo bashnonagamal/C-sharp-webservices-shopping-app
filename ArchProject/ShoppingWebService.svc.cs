@@ -223,18 +223,20 @@ namespace ArchProject
             }
             return Product;
         }
-        public int order(int userID, List<List<int>> cart, double totalPrice)
+        public int order(int userID, List<List<int>> cart, double totalPrice, string payment_method)
         {
             //Create cart for user
             SqlConnection conn = new SqlConnection("Data Source=DESKTOP-Q2BTOU1;Initial Catalog=onlineStoreDatabase;Integrated Security=True"); //Change Data Source
             conn.Open();
             int cartID=0;
-            SqlCommand comm = new SqlCommand("insert into Cart (User_id, Total_price) output INSERTED.Cart_id values (@A,@B)", conn);
+            SqlCommand comm = new SqlCommand("insert into Cart (User_id, Total_price, Payment_method) output INSERTED.Cart_id values (@A,@B,@C)", conn);
             SqlParameter userP = new SqlParameter("@A", userID);
             SqlParameter priceP = new SqlParameter("@B", totalPrice);
+            SqlParameter paymentMethod = new SqlParameter("@C", payment_method);
 
             comm.Parameters.Add(userP);
             comm.Parameters.Add(priceP);
+            comm.Parameters.Add(paymentMethod);
 
             cartID=(int)comm.ExecuteScalar();
 
@@ -249,7 +251,21 @@ namespace ArchProject
                 comm.Parameters.Add(productP);
                 comm.Parameters.Add(quantityP);
                 comm.ExecuteNonQuery();
+
+                // Lessen the product quantity
+                List<string> itm = getItemById(cart[i][0]);
+                comm = new SqlCommand("update Product set Stock_Quantity=@A where Product_ID = @F", conn);
+                SqlParameter quant = new SqlParameter("@A", Convert.ToInt32(itm[2]) - cart[i][1]);
+                SqlParameter prodID = new SqlParameter("@F", cart[i][0]);
+                comm.Parameters.Add(quant);
+                comm.Parameters.Add(prodID);
+                comm.ExecuteNonQuery();
+
             }
+
+
+
+
             conn.Close();
             
             return 1;
